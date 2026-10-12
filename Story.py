@@ -209,9 +209,34 @@ def the_underworld():
         brimstone_mines()
 
 def brimstone_mines():
-    pass
+    print("The brimstone mines are filled with imps mining, but none are making any progress. They mine only to mine, not to gain." \
+    "You see Gergabel, a demon of punishment and torture. They are one of your targets, so you must take them down. You look at your cookie jar to see what you have." \
+    "There are cookies, obviously, a bottle of holy water, and a Minecraft pickaxe. What do you choose?")
+
+    brimstoneChoice = input("(Cookie/Holy Water/Pickaxe)")
+
+    if brimstoneChoice.upper() == "COOKIE":
+        pass
+    elif brimstoneChoice.upper == "HOLY WATER":
+        pass
+    elif brimstoneChoice.upper() == "PICKAXE":
+        pass
+    else:
+        pass
 def agony_forest():
-    pass
+    print("You enter the forest of eternal agony. It is filled with souls of the dead, wandering forever a they are tortured by their past." \
+    "The mood is agonizing, but you know you must continue.")
+
+    agonyChoice = input("()")
+
+    if agonyChoice.upper() == "":
+        pass
+    elif agonyChoice.upper() == "":
+        pass
+    elif agonyChoice.upper() == "":
+        pass
+    else:
+        pass
 
 
 print("Welcome to Ben's super cool text story Game!")
