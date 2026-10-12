@@ -161,19 +161,28 @@ def hole_explode():
     wormChoice = input("(Fireball/Explosion/Claws)")
 
     if wormChoice.upper() == "FIREBALL":
-        print("")
+        print("You begin launching fireballs at the worm. It's skin deflects the fire, but the inside of its mouth seems to be less resistant." \
+        "You aim for the mouth and do some pretty good damage, but it eventually begins to cover his mouth. Seeing this you know you have to do something drastic to win." \
+        "You fly into its mouth as you fire volleys of fireballs. As it closes it's mouth around you, all you could see was your fire until the mouth re opened." \
+        "The worm was defeated, and you got your prize of worm teeth to sell on the black market.")
         print("")
         print("THE END")
     elif wormChoice.upper() == "EXPLOSION":
-        print("")
+        print("You somehow have more explosive, so you begin planting them across the worm's body. You dodge all the attacks thrown by the worm until you" \
+        "cover it with double the explosives used to blow the hole up. You light the fuse, this time a bit further away, and watch the worm explode." \
+        "Sadly, this does nothing to the worm, it was clearly blast proof. What was not blast proof was the moon, it was completely gone. You leave defeated, but you did take" \
+        "part of the moon as a participation trophy.")
         print("")
         print("THE END")
     elif wormChoice.upper() == "CLAWS":
-        print("")
+        print("You launch towards the worm and start slashing its skin with your sharp claws. The outer layer cuts like butter, but there is just took much" \
+        "and a thicker layer lies below the first. You go at it for a couple of hours, but nothing really happened. The worm was just took big, so eventually you just give up" \
+        "and go to Arby's in defeat.")
         print("")
         print("THE END")
     else:
-        print("")
+        print("You prepare to launch your attack, but the worm is surprisingly fast. It lauches at you, grabbing you and throwing you further into space." \
+        "Thankfully, it cannot move through space quickly, but neither can you, so you slowly float away from it in hopes that you eventually get away.")
         print("")
         print("THE END")
 
