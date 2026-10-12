@@ -225,15 +225,17 @@ def brimstone_mines():
         pass
 def agony_forest():
     print("You enter the forest of eternal agony. It is filled with souls of the dead, wandering forever a they are tortured by their past." \
-    "The mood is agonizing, but you know you must continue.")
+    "The mood is agonizing, but you know you must continue. You push through the brush and fog until you find tryleyborxly, The serpent of doom and despair." \
+    "This is one of the demons you are tasked to slay. You look into your cookie jar to see what you have that can slay this beast." \
+    "You naturally have cookies, as well as a holy hand grenade and an atom splitter. What do you use to defeat the serpent?")
 
-    agonyChoice = input("()")
+    agonyChoice = input("(Cookie/Grenade/Atom Splitter) ")
 
-    if agonyChoice.upper() == "":
+    if agonyChoice.upper() == "COOKIE":
         pass
-    elif agonyChoice.upper() == "":
+    elif agonyChoice.upper() == "GRENADE":
         pass
-    elif agonyChoice.upper() == "":
+    elif agonyChoice.upper() == "ATOM SPLITTER":
         pass
     else:
         pass
