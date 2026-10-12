@@ -44,7 +44,28 @@ def new_york():
         defend_gurdian()
 
 def defend_gurdian():
-    pass
+    print("You are defending your gurdian, killing all the minions that try to destroy it, but Graves, a girl who commands the dead with the hand of a lich, opposes you." \
+    "If you could take her out and eliminate the enemy gurdian, the ritual is as good as yours! You think about your abilities, deciding which could defeat this necromancer and" \
+    "their army of zombies and floating skulls. Which do you pick?")
+    gravesOption = input("(Punch/Bomb/Hook) ")
+
+    if gravesOption.upper() == "HOOK":
+        print("You ready your hook as the undead begin to advance. instead of aiming for the undead, you set your sights right on graves. You launch your hook, get a direct hit, and pull her in." \
+        "She has no wave to protect her now, and with the combined power of you and your gurdian, you take Graves down. It was only a matter of time before you and the Allmother's minions crash through the Hidden Kings defences." \
+        "The Allmother gives you one wish, which you use to cure your mother. You live peacefully with her on Long Island and retire your bombs and hook.")
+        print("")
+        print("THE END")
+    elif gravesOption.upper() == "PUNCH":
+        print("You arm your explosive punch and crash through the army of undead. You crack the skulls out of the sky and pound the zombies back ito the ground." \
+        "Unforunatly for you, the waves keep coming, and with the next waves of minions coming in, you can make no advancements towards graves. You slowly are widdled down, dying in a blaze of glory.")
+        print("")
+        print("THE END")
+    elif gravesOption.upper() == "BOMB":
+        print("You ready your bombs and start putting them on every skull and zombie you can reach. bones are flying everywhere, the battlefield looks like a firework show." \
+        "You keep on bombing the waves, but they keep coming. Your bombs slowly run out, leaving you stranded in the hole you've made as the undead pile atop you, making you one of them.")
+        print("")
+        print("THE END")
+
 def farm_creeps():
     pass
 
