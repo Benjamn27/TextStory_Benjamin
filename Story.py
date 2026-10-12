@@ -36,8 +36,11 @@ def new_york():
         defend_gurdian()
     elif powerChoice.upper() == "FARM":
         farm_creeps
-    elif powerChoice.upper() == "Hunt":
-        print("thing")
+    elif powerChoice.upper() == "HUNT":
+        print("You go to hunt the followers of the Hidden King, but you quickly realize you are outnumbered. Haze, a sandman officer, notices you and alerts her teammates." \
+        "You try to run away, but here sleep knife prevents you from getting far. You are swarmed, leaving only a pile of scrap.")
+        print("")
+        print("THE END")
     else:
         print("As you were about to go forward with your plan, the Allmother demands that you defend the gurdian, so you do.")
         print("")
@@ -65,9 +68,40 @@ def defend_gurdian():
         "You keep on bombing the waves, but they keep coming. Your bombs slowly run out, leaving you stranded in the hole you've made as the undead pile atop you, making you one of them.")
         print("")
         print("THE END")
+    else:
+        print("As you begin to charge in, Mo and krill, a sewer dwelling duo, hands you down with their stunning combo, restricting all movement." \
+        "The waves of undead crash on you and there is nothing you can do to spot them.")
+        print("")
+        print("THE END")
 
 def farm_creeps():
-    pass
+    print("You have entered the jungle, the home of the many creeps of New York. You begin slaying all the creeps, gaining many souls and increasing your power." \
+    "Suddenly, The Drifter appears, a blood thristy vampire who preys and those who are alone. If you kill him, your sould count will skyrocket, allowing you to sweep through the ritual." \
+    "You must choose your strategy properly. If you don't he will surely kill you. How do you plan to slay the vampire?")
+    drifterChoice = input("(Punch/Bomb/Laser)")
+
+    if drifterChoice.upper() == "PUNCH":
+        print("You start approaching The Drifter, ready to bust his skull open. You start throwing punches, but he avoids. You keep trying, but each try" \
+        "only allows him to. The fight is long and hard, but you cannot outpace The Drifter, his years of battle outclass your robotic strategy." \
+        "You eventually falter, allowing the drifter to land the finishing blow.")
+        print("")
+        print("THE END")
+    elif drifterChoice.upper() == "BOMB":
+        print("You ready your bombs and rush The Drifter. You know you won't be able to hit every bomb, so you focus on preventing his movements." \
+        "You place bombs all around, forcing him to focus on multiple areas at once. One his mind wanders away from you, you land your finishing assault." \
+        "The Drifter is defeated, and the ritual is as good as over. You defeat the Hidden King and save your mother.")
+        print("")
+        print("THE END")
+    elif drifterChoice.upper() == "LASER":
+        print("You ready your ultimate attack, a giant death laser, capable of destroying anything in its path. The downside is that aiming isn't very easy." \
+        "The Drifter easily dodges your laser, almost playing with you. You try your hardest to reaim, but the energy needed to fire is took much. You collapse, and The Drift pounces on you.")
+        print("")
+        print("THE END")
+    else:
+        print("As you begin to approach him, you see movement in the corner of your eye. It was a trap. Sinclair, a magical puppet, casts a hex on you, turning you into a bunny." \
+        "Your little fluffy body is helpless, allowing The Drifter to easily take your life.")
+        print("")
+        print("THE END")
 
 def the_Moon():
     print("You find yourself on the moon, a barren wasteland at first glance, but you know there is bountiful treasure somewhere." \
@@ -78,7 +112,7 @@ def the_Moon():
     if holeChoice.upper() == "JUMP":
         hole_jump()
     elif holeChoice.upper() == "EXPLODE":
-        hole_explode
+        hole_explode()
     elif holeChoice.upper() == "Fill":
         print("You start filling the hole with surrounding rocks and other random objects you find. You throw in some moon dust, a random flag, a nintendo 64, but the hole is still not filled." \
         "You start throwing your own equitment into the hole to try to fill it up, but nothing happens. As a last resort, you fly your ship into the hole. It is far to big for the hole, but it does plug the hole." \
@@ -91,9 +125,58 @@ def the_Moon():
         hole_jump()
 
 def hole_jump():
-    pass
+    print("You fall for a couple of seconds until you find yourself in a factory. Cheese is being transported all around and little rabbits are working the machines." \
+    "You don't really want cheese, but there might still be something in this factory that could be worth the adventure" \
+    "What would you like to take for profit?")
+    factoryChoice = input("(Machine/Rabbit/Cheese) ")
+
+    if factoryChoice.upper() == "MACHINE":
+        print("You find a machine that is creating cheese from nothing but moon dust. This technology could be worth millions, so you tear it off its bolts and fly it out." \
+        "You're chased out by flying rabbit drones firing carrot missles. Your impressive flying skills allow you to escape the the drones and get ehe technology to your fellow pirtes." \
+        "You sell it on the black market for $3 million and six tickets to the Spongebob Squarepants Movie.")
+        print("")
+        print("THE END")
+    elif factoryChoice.upper() == "RABBIT":
+        print("These rabbits don't seem to be normal. They have thumbs and undertand chinese. There are so many, you don't think anyone will notice one missing." \
+        "They wouldn't have, but you were greedy and took 27. You get pulled over passing Mars and the space police search your vehicle and find the rabbits." \
+        "They also find many different substances that you were going to sell. You are sentenced to 16 million years of public service at the Jurassic Space Zoo, as an exibit.")
+        print("")
+        print("THE END")
+    elif factoryChoice.upper() == "CHEESE":
+        print("You actually decide that you do want the cheese, I guess, and stat taking the cheese. The cheese is fairly light, so you collect a massive stack very quickly." \
+        "This does not go unnotices, many security rabbits stop you in as you feast on some swiss. You are detained and forced to work to pay for the lost profits." \
+        "You work poking hole into swiss cheese for two months, and when you finally get out, you realize your spaceship was towed and you'll have to fly home.")
+        print("")
+        print("THE END")
+    else:
+        print("As you look at all the possible goodies you could take, a giant rabbit picks you up. It does not say it a word, it only thows you back up the hole." \
+        "You fly into space as start thinking that maybe robbing isn't the best career option. Of course, this is a stupid thought, so you go to rob the nearest space station.")
+        print("")
+        print("THE END")
 def hole_explode():
-    pass
+    print("You set up a shipload of edxplosives to blow up the hole. You don't really know why, but you think something good may happen." \
+    "As you light the fuse, you start to think you may be too close. You were right. You are blown away and you notice something coming out of the blast." \
+    "A giant worm almost as large as the moon itself emerges. You are kind of resposible, so you think of how to destroy it." \
+    "How should you fix this problem?")
+    wormChoice = input("(Fireball/Explosion/Claws)")
+
+    if wormChoice.upper() == "FIREBALL":
+        print("")
+        print("")
+        print("THE END")
+    elif wormChoice.upper() == "EXPLOSION":
+        print("")
+        print("")
+        print("THE END")
+    elif wormChoice.upper() == "CLAWS":
+        print("")
+        print("")
+        print("THE END")
+    else:
+        print("")
+        print("")
+        print("THE END")
+
 
 def the_underworld():
     print("You find yourself in the underworld. Don't worry, you didn't do anything wrong, the gods have sent you down to slay a powerful beast" \
