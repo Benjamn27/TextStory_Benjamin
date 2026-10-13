@@ -1,25 +1,23 @@
-character = "null"
-
 def bebop_picked():
-    print("You've chosen Bebop, a fine choice")
+    print("You've chosen Bebop, a fine choice.")
     print("")
     character = "Bebop"
     new_york()
 
 def ridely_picked():
-    print("You've chosen Bebop, a fine choice")
+    print("You've chosen Bebop, a fine choice.")
     print("")
     character = "Ridely"
     the_Moon()
 
 def cookie_monster_picked():
-    print("You've chosen Cookie Monster, I hope it works out for you")
+    print("You've chosen Cookie Monster, I hope it works out for you.")
     print("")
     character = "Cookie Monster"
     the_underworld()
 
 def not_heard():
-    print("I didn't quite catch that, but I think you'd love to pick Bebop")
+    print("I didn't quite catch that, but I think you'd love to pick Bebop.")
     print("")
     character = "Bebop"
     new_york()
@@ -216,29 +214,68 @@ def brimstone_mines():
     brimstoneChoice = input("(Cookie/Holy Water/Pickaxe)")
 
     if brimstoneChoice.upper() == "COOKIE":
-        pass
+        print("You eat a cookie. You then eat another cookie. they taste good, but do absolutely nothing." \
+        "Gergabel doesn't even attack you, he just goes back to business like you aren't there. You get a call from the gods." \
+        "You realize you didn't read the fine print in your contract that said no eating on the job, so you no longer have a job." \
+        "You eat another cookie.")
+        print("")
+        print("THE END")
     elif brimstoneChoice.upper == "HOLY WATER":
-        pass
+        print("You ready your holy water, a substance that can melt any demonic beast within seconds." \
+        "You open the bottle, only to find it filled with milk. You remember wanting to bring milk for your cookies, but you didn't have any spare bottles." \
+        "Since you are out of options, you splash the milk on Gergabel. They are not amused. You get grabbed and slammed three levels down the mines." \
+        "Gerbabel leaves you there with no way out, forcing you to work in the mines for the rest of your days.")
+        print("")
+        print("THE END")
     elif brimstoneChoice.upper() == "PICKAXE":
-        pass
+        print("You pull out your Minecraft pickaxe, ready to destroy Gergabel. You miss your first couple blows," \
+        "the demon is very fast, but you start learning their movements and begin breaking down its body. Suddenly, it wacks the pickaxe" \
+        "out of your hands, leaving you powerless. It looks to be the end, when all of a sudden the imps pile on Gergabel. They use their pickaxes to take down the demon." \
+        "To celebrate, you all go to the Waffle House and feast. The gods also give you a raise, two more cookies per week!")
+        print("")
+        print("THE END")
     else:
-        pass
+        print("As you ready your attack, a swarm of imps pcik you up again, bringing you to the entrance of the Underworld." \
+        "It already was a very expensive trip down, so you decide to call it a day. You go find a random goat and try to convince the gods that it was a demon." \
+        "They did not buy it. They turn you into the goat and you are sent back to the middle of the underworld." \
+        "You decide to apply for a job at the Waffle House, which you somehow get.")
+        print("")
+        print("THE END")
 def agony_forest():
     print("You enter the forest of eternal agony. It is filled with souls of the dead, wandering forever a they are tortured by their past." \
-    "The mood is agonizing, but you know you must continue. You push through the brush and fog until you find tryleyborxly, The serpent of doom and despair." \
+    "The mood is agonizing, but you know you must continue. You push through the brush and fog until you find Tryleyborxly, The serpent of doom and despair." \
     "This is one of the demons you are tasked to slay. You look into your cookie jar to see what you have that can slay this beast." \
     "You naturally have cookies, as well as a holy hand grenade and an atom splitter. What do you use to defeat the serpent?")
 
     agonyChoice = input("(Cookie/Grenade/Atom Splitter) ")
 
     if agonyChoice.upper() == "COOKIE":
-        pass
+        print("You eat a cookie. It was chocolate chip, very tasty. You eat another, sugar cookie." \
+        "Tryleyborxly watches you, not really knowing why you are doing this. You eat another cookie, oatmeal cookie." \
+        "You keep eating cookies until you get a call form the gods. They are very disappointed that you have only eaten cookies for the last 10 hours." \
+        "You are revoked of your duty and are now stuck in the forest. You eat another cookie, chocolate chip.")
+        print("")
+        print("THE END")
     elif agonyChoice.upper() == "GRENADE":
-        pass
+        print("You pull out the trusty Holy Hand Grenade. Tryleyborxly notices it and acts cautiously. Your throwing hand isn't the best, but you need only to get it close enough." \
+        "You aim your shot, pull the pin, and sneeze. The grenade is at your feet. Shucks. Good news, the Tryleyborxly you saw was an illusion, the real one snuck up behind you." \
+        "You are launched from the collateral, but Tryleyborxly is defeated. You see a vision of the gods, the look very proud of you." \
+        "You walk out of the gates of the Underworld, take a breath of fresh air, and eat a cookie.")
+        print("")
+        print("THE END")
     elif agonyChoice.upper() == "ATOM SPLITTER":
-        pass
+        print("You pull out your atom splitter, a weapon of mass destruction. What happened next is exactly what you think would happen." \
+        "The entire forest not longer exists, but neither do you. The atom splitter took out a large portion of the underworld, leaving Hades with a lot of paperwork." \
+        "The gods summon your spirit to question your method. They wanted some good relations with Hades, but this destroyed all of that." \
+        "They decide to leave you in a room with an infinite cookie, hoping that you won't do anything stupid ever again.")
+        print("")
+        print("THE END")
     else:
-        pass
+        print("You ready an attack, but suddenlt vines grasp at your arms and legs. The forest acts as if it were alive." \
+        "Roots crumble the ground, a pit opens up below you, and you are pulled deep inside. You are now one with the forest." \
+        "You will never leave, and you will not eat another...how did you get that cookie? I guess you DO eat a cookie, but that's the last... OH COME ON!")
+        print("")
+        print("THE END")
 
 
 print("Welcome to Ben's super cool text story Game!")
@@ -257,5 +294,7 @@ elif playerCharacter.upper() == "BEBOP":
     bebop_picked()
 elif playerCharacter.upper() == "COOKIE MONSTER":
     cookie_monster_picked()
+else:
+    print("Error: could not detect character. Please reload program.")
 
 
